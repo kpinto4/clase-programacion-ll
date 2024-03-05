@@ -29,7 +29,7 @@
          <children>
             <TextField id="UserText" fx:id="txtUser" layoutX="76.0" layoutY="136.0" promptText="user" style="-fx-background-color: transparent; -fx-border-color: #01ffff; -fx-border-width: 0px 0px 2px 0px;" />
             <PasswordField id="PassText" fx:id="txtPassw" layoutX="74.0" layoutY="233.0" promptText="password" style="-fx-background-color: transparent; -fx-border-color: #01ffff; -fx-border-width: 0px 0px 2px 0px;" />
-            <Button id="ButtonEntrar" fx:id="btnLogin" layoutX="118.0" layoutY="292.0" mnemonicParsing="false" onAction="#click" style="-fx-background-color: #01ffff;" text="Login" />
+            <Button id="ButtonEntrar" fx:id="btnLogin" layoutX="118.0" layoutY="292.0" mnemonicParsing="false" onAction="#clickLg" style="-fx-background-color: #01ffff;" text="Login" />
             <ImageView fitHeight="21.0" fitWidth="50.0" layoutX="47.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../cerrar-con-llave.png" />
@@ -45,7 +45,7 @@
                   <Image url="@../../../../../../../../Pictures/cado.png" />
                </image>
             </ImageView>
-            <Button fx:id="btnClose" layoutX="247.0" layoutY="14.0" minHeight="18.0" minWidth="17.0" mnemonicParsing="false" onAction="#click" prefHeight="18.0" prefWidth="17.0" style="-fx-background-color: transparent;" />
+            <Button fx:id="btnClose" layoutX="247.0" layoutY="14.0" minHeight="18.0" minWidth="17.0" mnemonicParsing="false" onAction="#clickCl" prefHeight="18.0" prefWidth="17.0" style="-fx-background-color: transparent;" />
             <ImageView id="BtnCerrar" fitHeight="14.0" fitWidth="48.0" layoutX="268.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../../../../eliminar-simbolo.png" />
