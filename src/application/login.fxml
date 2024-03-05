@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <left>
+      <AnchorPane prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #01ffff;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="243.0" fitWidth="258.0" layoutX="29.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Pictures/6168680.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="94.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Pictures/ahor.png" />
+               </image>
+            </ImageView>
+         </children></AnchorPane>
+   </left>
+   <center>
+      <AnchorPane prefHeight="400.0" prefWidth="300.0" BorderPane.alignment="CENTER">
+         <children>
+            <TextField id="UserText" fx:id="txtUser" layoutX="76.0" layoutY="136.0" promptText="user" style="-fx-background-color: transparent; -fx-border-color: #01ffff; -fx-border-width: 0px 0px 2px 0px;" />
+            <PasswordField id="PassText" fx:id="txtPassw" layoutX="74.0" layoutY="233.0" promptText="password" style="-fx-background-color: transparent; -fx-border-color: #01ffff; -fx-border-width: 0px 0px 2px 0px;" />
+            <Button id="ButtonEntrar" fx:id="btnLogin" layoutX="118.0" layoutY="292.0" mnemonicParsing="false" onAction="#click" style="-fx-background-color: #01ffff;" text="Login" />
+            <ImageView fitHeight="21.0" fitWidth="50.0" layoutX="47.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../cerrar-con-llave.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="23.0" fitWidth="25.0" layoutX="46.0" layoutY="138.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../usuario.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../../Pictures/cado.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnClose" layoutX="247.0" layoutY="14.0" minHeight="18.0" minWidth="17.0" mnemonicParsing="false" onAction="#click" prefHeight="18.0" prefWidth="17.0" style="-fx-background-color: transparent;" />
+            <ImageView id="BtnCerrar" fitHeight="14.0" fitWidth="48.0" layoutX="268.0" layoutY="20.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../../eliminar-simbolo.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
